@@ -1,0 +1,56 @@
+ :root {
+    --heading-font: Arial, Helvetica, sans-serif;
+    --default-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --background-color: #f9f7fe;
+    --accent-color: #a460a7; 
+ }
+
+ body {
+    font-family: var(--default-font);
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+    color: black;
+    font-family: var(--heading-font);
+    font-weight: bold;
+ }
+
+h1 {
+    color: black;
+    font-size: 96px;
+    font-weight: bold;
+}
+
+p {
+    font-family: var(--heading-font);
+    font-weight: normal;
+}
+
+.ace {
+    background: var(--background-color);
+    text-align: center;
+    padding: 160px 20px;
+}
+
+.ace p {
+    font-size: 36px;
+    font-weight: bold;
+    color: #272142;
+    margin: 0;
+}
+
+.ace h2 {
+    font-family: var(--default-font);
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.btn-style {
+    background: var(--accent-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
