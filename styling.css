@@ -1,94 +1,98 @@
- :root {
-    --heading-font: Arial, Helvetica, sans-serif;
-    --default-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    --background-color: #f9f7fe;
-    --accent-color: #a460a7; 
- }
+:root {
+  --heading-font: Arial, Helvetica, sans-serif;
+  --default-font: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --background-color: #f9f7fe;
+  --accent-color: #a460a7;
+}
 
- body {
-    font-family: var(--default-font);
- }
+body {
+  font-family: var(--default-font);
+}
 
- h1, h2, h3, h4, h5, h6 {
-    color: black;
-    font-family: var(--heading-font);
-    font-weight: bold;
- }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: var(--heading-font);
+  font-weight: bold;
+}
 
 h1 {
-    color: black;
-    font-size: 96px;
-    font-weight: bold;
-    line-height: 1.5;
+  color: black;
+  font-size: 96px;
+  font-weight: bold;
+  line-height: 1.5;
 }
 
 h2 {
-    font-size: 64px;
+  font-size: 64px;
 }
 
 p {
-    font-family: var(--default-font);
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 30px;
+  font-family: var(--default-font);
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
 }
 
 .ace {
-    background: var(--background-color);
-    text-align: center;
-    padding: 160px 20px;
+  background: var(--background-color);
+  text-align: center;
+  padding: 160px 20px;
 }
 
 .ace p {
-    font-size: 36px;
-    font-weight: bold;
-    color: #272142;
-    margin: 0;
-    
+  font-size: 36px;
+  font-weight: bold;
+  color: #272142;
+  margin: 0;
 }
 
 .ace h2 {
-    font-family: var(--heading-font);
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 1.5;
+  font-family: var(--heading-font);
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1.5;
 }
 
 .btn-style {
-    background: var(--accent-color);
-    border-radius: 4px;
-    color: white;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 15px 30px;
+  background: var(--accent-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
 
 .btn-style-outline {
-    color: var(--accent-color);
-    border: 1px solid var(--accent-color);
-    border-radius: 4px;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 15px 30px;
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
 
 .project-description {
-    padding: 0px 60px;
+  padding: 0px 60px;
 }
 
-@media (max-width: 960px) { 
-    h1 {
-        font-size: 44px;
-        line-height: 2;
-    }
-    h2 {
-        font-size: 44px;
-    }
-    .ace {
-        padding: 80px 20px;
-    }
-    .project-description {
-        padding: 0;
-        text-align: center;
-    }
+@media (max-width: 960px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .ace {
+    padding: 80px 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
