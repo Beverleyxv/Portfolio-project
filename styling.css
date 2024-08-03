@@ -96,3 +96,6 @@ p {
     text-align: center;
   }
 }
+
+.profile-photo {
+  border-radius: 20px}
