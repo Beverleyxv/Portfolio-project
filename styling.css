@@ -58,6 +58,35 @@ p {
   line-height: 1.5;
 }
 
+.content-container {
+  padding: 160px 20px;
+}
+
+.content {
+  margin: 30px;
+}
+
+.content h1 {
+  font-size: 64px;
+  line-height: 1.5;
+}
+
+.content h2 {
+  font-size: 18px;
+  font-family: var(--default-font);
+}
+
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+  font-family: var(--default-font);
+}
+
+.content p {
+  font-size: 14px;
+}
+
 .btn-style {
   background: var(--accent-color);
   border-radius: 4px;
@@ -91,6 +120,10 @@ p {
   .ace {
     padding: 80px 20px;
   }
+  .content-container {
+    text-align: center;
+    padding: 0;
+  }
   .project-description {
     padding: 0;
     text-align: center;
@@ -98,4 +131,6 @@ p {
 }
 
 .profile-photo {
-  border-radius: 20px}
+  border-radius: 20px;
+  height: 70%;
+}
