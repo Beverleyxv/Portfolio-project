@@ -31,6 +31,10 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-family: var(--default-font);
   font-size: 16px;
@@ -109,13 +113,81 @@ p {
   padding: 0px 60px;
 }
 
-@media (max-width: 960px) {
+nav {
+  padding: 20px;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 30px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover, nav li.active a {
+  color: var(--accent-color);
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--background-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--accent-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--accent-color);
+  background: var(--background-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--accent-color);
+}
+
+@media (max-width: 600px) {
   h1 {
     font-size: 44px;
     line-height: 2;
   }
   h2 {
     font-size: 44px;
+  }
+  h4 {
+    font-size: 20px;
   }
   .ace {
     padding: 80px 20px;
@@ -127,6 +199,10 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  nav a {
+    font-size: 14px;
+    margin: 5px;
   }
 }
 
